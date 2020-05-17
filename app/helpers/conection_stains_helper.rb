@@ -1,0 +1,2 @@
+module ConectionStainsHelper
+end

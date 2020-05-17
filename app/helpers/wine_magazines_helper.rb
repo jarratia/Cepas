@@ -1,0 +1,2 @@
+module WineMagazinesHelper
+end
