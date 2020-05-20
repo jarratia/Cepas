@@ -1,5 +1,8 @@
 require 'rails_helper'
 
 RSpec.describe Strain, type: :model do
-  pending "add some examples to (or delete) #{__FILE__}"
+  it "is not valid without an name" do
+    post = Strain.create(name: "Some name")
+    expect(strain).to_not be_valid
+    end
 end
