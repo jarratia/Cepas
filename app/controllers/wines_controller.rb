@@ -24,6 +24,7 @@ class WinesController < ApplicationController
 
   # POST /wines
   # POST /wines.json
+
   def create
     @wine = Wine.new(wine_params)
 
